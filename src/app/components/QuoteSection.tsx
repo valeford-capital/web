@@ -1,7 +1,7 @@
 "use client";
-import React from 'react';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
+import React from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 const QuoteSection = () => {
   return (
@@ -9,8 +9,8 @@ const QuoteSection = () => {
       <div className="container mx-auto px-8">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
           {/* Photo - positioned on the left side, faded */}
-          <motion.div 
-            initial={{ opacity: 0 }} 
+          <motion.div
+            initial={{ opacity: 0 }}
             whileInView={{ opacity: 0.7 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
@@ -23,10 +23,10 @@ const QuoteSection = () => {
               className="object-cover rounded-full"
             />
           </motion.div>
-          
+
           {/* Quote content */}
           <div className="flex-1">
-            <motion.blockquote 
+            <motion.blockquote
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
