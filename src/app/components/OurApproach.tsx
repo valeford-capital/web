@@ -25,7 +25,7 @@ const OurApproach = () => {
     <section className="relative overflow-hidden bg-gray-50 py-16 md:py-24">
       {/* Subtle background gradient for depth */}
       <div className="absolute w-full h-full top-0 left-0 bg-gradient-to-br from-gray-50 via-blue-50/30 to-gray-50 opacity-70"></div>
-      
+
       <div className="container relative z-10 px-8 mx-auto">
         {/* Centered content */}
         <div className="w-full max-w-4xl mx-auto text-center">
@@ -58,7 +58,7 @@ const OurApproach = () => {
           >
             Fast. Focused. Scalable.
           </motion.h2>
-          
+
           {/* Approach points in horizontal cards on desktop, vertical on mobile */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {approachPoints.map((point, index) => (
